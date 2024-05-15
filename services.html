@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="css-img.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--js-bootstarp-->
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <style>
+        .fade-in 
+            {
+                opacity: 0;
+                transform: translateY(20px);
+                transition: opacity 3s ease, transform 0.5s ease;
+            }
+
+        .fade-in2 
+        {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+    </style>
+    <script>
+        // สร้างเอฟเฟกต์ fade-in เมื่อเลื่อนลงมา
+        $(document).ready(function () 
+        {
+            $('.fade-in').each(function () 
+            {
+                var elementTop = $(this).offset().top;
+                var windowHeight = $(window).height();
+                if (elementTop < windowHeight) 
+                {
+                    $(this).css({
+                        'opacity': 1,
+                        'transform': 'translateY(0)'
+                    });
+                }
+            });
+
+            $('.fade-in2').each(function () 
+            {
+                var elementTop = $(this).offset().top;
+                var windowHeight = $(window).height();
+                if (elementTop < windowHeight) 
+                {
+                    $(this).css({
+                        'opacity': 1,
+                        'transform': 'translateY(0)'
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fade-in2">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><h1><img src="image/cat.jpg" style="width: 150pt; height: 150pt;" ><b> Cat city</b></h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="login.php">Login</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5 fade-in">
+        <h1><b>Our Services</b></h1>
+        <br>
+        <hr class="blue-line2">
+        <div class="container mt-4">
+            <div class="row mt-5 ml-3">
+                <div class="col-md-4">
+                    <h3>Variety of products</h3>
+                    <div class="mt-4">
+                        <h5>Our company sells a variety</h5>
+                        <h5>of products for cats.and is a</h5>
+                        <h5>high quality product</h5>
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <h3>High quality cat food</h3>
+                    <div class="mt-4">
+                        <h5>We sell only premium grade food</h5>
+                        <h5>high quality food for your cat</h5>
+                        <h5>and affordable price</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Cat bathing service</h3>
+                    <div class="mt-4">
+                        <h5>Our shop has a cat boarding service</h5>
+                        <h5>that is taken care of by</h5>
+                        <h5>professional staff.</h5>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row mt-5 ml-3">
+                <div class="col-md-4">
+                    <h3>Cats imported</h3>
+                    <div class="mt-4">
+                        <h5>Our cat farm has high quality</h5>
+                        <h5>and healthy imported cats</h5>
+                        <h5>And there are many types.</h5>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <h3>Professional service</h3>
+                    <div class="mt-4">
+                        <h5>All types of services provided here</h5>
+                        <h5>by a professional team, we have </h5>
+                        <h5>been taking care of customers for 10 years.</h5>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+            
+        <div class="mt-lg-5 text-center">
+            <div class="mt-4">
+                <h1><b>Testimonials from happy clients</b></h1>
+                <br>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row ">
+                <div class="col-md-3 text-center">
+                    <h1 class="custom-text5">24K+</h1>
+                    <div class="mt-3 custom-text4 text-center">Served Customers</div>                          
+                </div>
+                <div class="col-md-3 text-center">
+                    <h1 class="custom-text5">98%</h1>
+                    <div class="mt-3 custom-text4 text-center">Recommendation Rate</div>       
+                </div>    
+                <div class="col-md-3 text-center">
+                    <h1 class="custom-text5">10+</h1>
+                    <div class="mt-3 custom-text4 text-center">Years of Experience</div>  
+                </div>
+                <div class="col-md-3 text-center">
+                    <h1 class="custom-text5">100%</h1>
+                    <div class="mt-3 custom-text4 text-center">The best price</div>  
+                </div>     
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="mt-5">
+        <div class="custom-rectangle">
+            <div class="box-green">
+                <div id="bold-text"> 
+                    Get in touch
+                </div>
+            </div>
+            <div class="text-p">
+                <P>If you have any doubts or questions, you can contact us at any time. We are always ready to serve customers.</P>
+            </div>
+            <div class="text-p">
+                <p>Our company policy requires us to register as a member before we can access the store page.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="custom-rectangle2">
+                
+                <div class="row">
+                        <div class="mt-4 ml-3">
+                            <h1><b>Cat city</b></h1>
+                            <div class="mt-4">
+                                <h5 class="custom-text2">At Cat City, we take pride in our unwavering commitment</h5>
+                                <h5 class="custom-text2">to service excellence and the genuine love </h5>
+                                <h5 class="custom-text2">we extend to our customers'</h5>
+                            </div>
+                        </div>
+
+                        <div class="ml-5 burapa2">
+                            <div class="mt-4 ml-3">
+                                <h5 class="custom-text3">Get in touch</h5>
+                                <div class="mt-3 ">
+                                    <h5 class="custom-text2">095-768-7460</h5>
+                                    <h5 class="custom-text2">www.cat-city.com</h5>
+                                    <h5 class="custom-text2">1234 Lincoln Street, Frankfurt, Germany</h5>
+                                    <br>
+                                    <div>
+                                        <h5>
+                                            <i class="fa-brands fa-facebook fa-lg"  style="margin-right: 10px;"></i>
+                                            <i class="fa-brands fa-instagram fa-lg" style="margin-right: 10px;"></i>
+                                            <i class="fa-brands fa-tiktok"          style="margin-right: 10px;"></i>
+                                            <i class="fa-brands fa-twitter fa-lg"   style="margin-right: 10px;"></i>
+                                            <i class="fa-brands fa-github fa-lg"    style="margin-right: 10px;"></i>
+                                        </h5> 
+                                    </div>                                   
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div> 
+
+    <footer style="background-color: black;">
+        <div class="container" >
+            <p class="m-0 text-center text-white py-4">Copy Right &copy;2023 cat city</p>
+        </div>
+    </footer>
+</body>
+</html>   

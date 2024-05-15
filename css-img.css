@@ -1,0 +1,222 @@
+.nav-link 
+{
+    color: black;
+    font-weight: bold; /* ทำให้ตัวอักษรหนาขึ้น */
+}
+
+.flex-container 
+{
+    display: flex;
+}
+
+.flex-container > div {
+background-color: #f1f1f1;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+.img1
+{
+   padding-bottom: 15%;
+}
+
+.blue-line {
+    border: none; /* ลบเส้นใต้ที่มาพร้อมกับ <hr> ออก */
+    border-top: 4px solid blue; /* สร้างเส้นขอบด้านบนสีน้ำเงิน */
+    width: 50%; /* กำหนดความยาวให้เส้นใต้เป็น 50% ของความกว้างของคอลัมน์ */
+    margin: 0; /* ไม่มีการกำหนด margin ทางด้านขวา จะอยู่ด้านซ้ายโดยอัตโนมัติ */
+    padding-top: 10px; /* เพิ่ม padding ด้านบน เป็น 10px (ค่าที่คุณต้องการ) */
+}
+
+.blue-line2 {
+    border: none; /* ลบเส้นใต้ที่มาพร้อมกับ <hr> ออก */
+    border-top: 4px solid blue; /* สร้างเส้นขอบด้านบนสีน้ำเงิน */
+    width: 20%; /* กำหนดความยาวให้เส้นใต้เป็น 50% ของความกว้างของคอลัมน์ */
+    margin: 0; /* ไม่มีการกำหนด margin ทางด้านขวา จะอยู่ด้านซ้ายโดยอัตโนมัติ */
+    padding-top: 3px;
+}
+
+.blue-line3 {
+    border: none; /* ลบเส้นใต้ที่มาพร้อมกับ <hr> ออก */
+    border-top: 4px solid blue; /* สร้างเส้นขอบด้านบนสีน้ำเงิน */
+    width: 25%; /* กำหนดความยาวให้เส้นใต้เป็น 50% ของความกว้างของคอลัมน์ */
+    margin: 0; /* ไม่มีการกำหนด margin ทางด้านขวา จะอยู่ด้านซ้ายโดยอัตโนมัติ */
+    padding-top: 3px;
+}
+
+
+.rounded-circle {
+    border-radius: 50%; /* ทำให้มีรูปร่างเป็นวงกลม */
+}
+
+.img-circle {
+    width: 200px; /* กำหนดความกว้างของ div */
+    height: 200px; /* กำหนดความสูงของ div */
+    border-radius: 50%; /* ทำให้มีรูปร่างเป็นวงกลม */
+    overflow: hidden; /* ลดเนื้อที่ที่เกินขอบของวงกลม */
+}
+
+.img-circle img {
+    width: 100%; /* กำหนดให้ภาพเต็มกว้างของ div */
+    height: auto; /* ให้ภาพปรับสัดส่วนอัตโนมัติ */
+    display: block; /* แสดงภาพเป็นบล็อก */
+}
+
+.img-circle2 {
+    width: 200px; /* กำหนดความกว้างของ div */
+    height: 200px; /* กำหนดความสูงของ div */
+    border-radius: 50%; /* ทำให้มีรูปร่างเป็นวงกลม */
+    overflow: hidden; /* ลดเนื้อที่ที่เกินขอบของวงกลม */
+    margin: 60px; /* กำหนดระยะห่างระหว่างรูปภาพ */
+}
+
+.img-circle2 img {
+    width: 100%; /* กำหนดให้ภาพเต็มกว้างของ div */
+    height: auto; /* ให้ภาพปรับสัดส่วนอัตโนมัติ */
+    display: block; /* แสดงภาพเป็นบล็อก */
+}
+
+.custom-text {
+    font-style: italic; /* ทำให้ตัวอักษรเอียง (italic) */
+    font-size: 16px; /* ปรับขนาดตัวอักษรตามความต้องการ */
+}
+
+.custom-text2 {
+    font-size: 15px; /* ปรับขนาดตัวอักษรตามความต้องการ */
+}
+
+.custom-text3 {
+    font-size: 20px; /* ปรับขนาดตัวอักษรตามความต้องการ */
+    font-weight: bold;
+}
+
+.custom-text4 {
+    font-size: 22px; /* ปรับขนาดตัวอักษรตามความต้องการ */
+}
+
+.custom-text5 {
+    font-size: 50px; /* ปรับขนาดตัวอักษรตามความต้องการ */
+    font-weight: bold;
+}
+
+#bold-text {
+    font-weight: bold;
+    color:#f1f1f1;
+    font-size: 40px;
+}
+
+#bold-text2 {
+    font-weight: bold;
+    color:#f1f1f1;
+    font-size: 40px;
+}
+
+#bold-text3 
+{
+    /*font-weight: bold;*/
+    color:#f1f1f1;
+    font-size: 15px;
+    padding-top: 2%;
+}
+
+.custom-rectangle {
+    background-color:#213034; /* สีเทาสำหรับพื้นหลัง */
+    height: 225pt; /* ความสูงของกรอบ */
+    width: 100%; /* ความกว้างของกรอบเท่ากับหน้าเพจ */
+}
+
+.box-green
+{
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+.box-green-service
+{
+    padding-left: 20%;
+    padding-top: 3%;
+}
+
+.box-green-service2
+{
+    padding-left: 13.5%;
+    padding-bottom: 2%;
+}
+
+.box-green-service3
+{
+    padding-left: 33.5%;
+    padding-bottom: 2%;
+}
+
+.custom-rectangle2 {
+    background-color:#f1f1f1; /* สีเทาสำหรับพื้นหลัง */
+    height: 300pt; /* ความสูงของกรอบ */
+    width: 100%; /* ความกว้างของกรอบเท่ากับหน้าเพจ */
+}
+
+.text-p
+{
+    font-weight: bold;
+    color:#f1f1f1;
+    font-size: 20px;
+    padding-top: 1%;
+    padding-left: 25%;
+}
+
+.p2
+{
+    font-weight: bold;
+    color:#f1f1f1;
+    font-size: 20px;
+    margin-right: 15%;
+}
+
+.text-p3
+{
+    font-weight: bold;
+    color:#f1f1f1;
+    font-size: 20px;
+    padding-left: 32%;
+}
+
+.button1
+{
+    padding-left: 42%;
+}
+
+.burapa2
+{
+    padding-left: 30%;
+    padding-top: 1%;
+}
+
+.card:hover {
+    transform: scale(1.1); /* ขยายขนาดการ์ดเมื่อ hover */
+    transition: transform 0.5s ease; /* เพิ่มอนิเมชันเมื่อ hover */
+}
+
+.ceo
+{
+   margin:10% ;
+}
+
+.form-login
+{
+    padding-left: 15%;
+    padding-top: 35%;
+}
+
+.farmimg {
+    border: 5px solid #ffc107; /* สีขอบ */
+    border-radius: 10px; /* รัศมีขอบ */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* เงา */
+  }
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}

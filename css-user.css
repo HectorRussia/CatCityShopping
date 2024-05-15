@@ -1,0 +1,64 @@
+
+.border-0 
+{
+    border: 0!important;
+}
+
+.text-primary {
+    color: #ceaa4d !important;
+}
+.text-secondary {
+    color: #15395A !important;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.display-26 {
+    font-size: 1.3rem;
+}
+
+.p-1-9 
+{
+    padding: 1.9rem;
+}
+
+.bg-secondary 
+{
+    background: #15395A !important;
+}
+
+.pe-1-9, .px-1-9 {
+    padding-right: 1.9rem;
+}
+.ps-1-9, .px-1-9 {
+    padding-left: 1.9rem;
+}
+.pb-1-9, .py-1-9 {
+    padding-bottom: 1.9rem;
+}
+.pt-1-9, .py-1-9 {
+    padding-top: 1.9rem;
+}
+.mb-1-9, .my-1-9 {
+    margin-bottom: 1.9rem;
+}
+@media (min-width: 992px)
+{
+    .d-lg-inline-block 
+    {
+        display: inline-block!important;
+    }
+}
+.rounded {
+    border-radius: 0.25rem!important;
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+
+.btn-circle:hover {
+    /* สไตล์ที่คุณต้องการให้เปลี่ยนเมื่อนำเมาส์ไป hover */
+    background-color: #5bc0de;
+    color: #fff;
+}
